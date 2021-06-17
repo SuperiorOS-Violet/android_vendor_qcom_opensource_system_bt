@@ -210,8 +210,6 @@ int get_niap_config_compare_result() {
 
 bool is_atv_device() { return is_local_device_atv; }
 
-bool is_atv_device() { return is_local_device_atv; }
-
 static int get_adapter_properties(void) {
   /* sanity check */
   if (interface_ready() == false) return BT_STATUS_NOT_READY;
